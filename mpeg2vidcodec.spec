@@ -5,8 +5,6 @@ Version:	1.2
 Release:	2
 License:	Freeware
 Group:		X11/Applications/Graphics
-Group(de):	X11/Applikationen/Grafik
-Group(pl):	X11/Aplikacje/Grafika
 URL:		http://www.mpeg.org/MSSG/
 Source0:	ftp://ftp.mpeg.org/pub/mpeg/mssg/%{name}_v12.tar.gz
 BuildRequires:	XFree86-devel
