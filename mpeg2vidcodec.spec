@@ -53,6 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README doc/* src/*/CHANGES* src/*/TODO* \
+%doc README doc/* src/*/CHANGES* src/*/TODO* 
 %doc src/mpeg2dec/{EXAMPLES,IEEE1180,README*,SPATIAL.DOC}
 %attr(755,root,root) %{_bindir}/*
