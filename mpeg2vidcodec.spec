@@ -29,7 +29,7 @@ i odwrotnie.
 
 %build
 %{__make} \
-	CFLAGS="%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS}" \
+	CFLAGS="%{rpmcflags}" \
 	USE_DISP=-DDISPLAY \
 	LIBS="-lXext -lX11" \
 	USE_SHMEM=-DSH_MEM \
