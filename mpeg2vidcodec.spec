@@ -3,7 +3,7 @@ Summary(pl):	Koder i dekoder plików MPEG-2
 Name:		mpeg2vidcodec
 Version:	1.2
 Release:	2
-Copyright:	Freeware
+License:	Freeware
 Group:		X11/Applications/Graphics
 Group(de):	X11/Applikationen/Grafik
 Group(pl):	X11/Aplikacje/Grafika
