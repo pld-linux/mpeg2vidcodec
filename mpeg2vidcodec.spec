@@ -2,7 +2,7 @@ Summary:	MPEG-2 Encoder / Decoder
 Summary(pl):	Koder i dekoder plików MPEG-2
 Name:		mpeg2vidcodec
 Version:	1.2
-Release:	2
+Release:	3
 License:	Freeware
 Group:		X11/Applications/Graphics
 URL:		http://www.mpeg.org/MSSG/
