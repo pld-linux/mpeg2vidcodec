@@ -21,7 +21,7 @@ video coded bitstream sequences, and vice versa.
 Ten pakiet zawiera implementacjê kodowania ISO/IEC DIS 13818-2.
 Konwertuje nieskompresowane klatki obrazu na strumieñ MPEG-1 lub MPEG-2
 i odwrotnie.
- 
+
 %prep
 %setup -q -n mpeg2
 
@@ -53,6 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README doc/* src/*/CHANGES* src/*/TODO* 
+%doc README doc/* src/*/CHANGES* src/*/TODO*
 %doc src/mpeg2dec/{EXAMPLES,IEEE1180,README*,SPATIAL.DOC}
 %attr(755,root,root) %{_bindir}/*
