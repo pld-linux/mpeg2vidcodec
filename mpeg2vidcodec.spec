@@ -7,6 +7,7 @@ License:	Freeware
 Group:		X11/Applications/Graphics
 URL:		http://www.mpeg.org/MSSG/
 Source0:	ftp://ftp.mpeg.org/pub/mpeg/mssg/%{name}_v12.tar.gz
+# Source0-md5:	4a66565979be0818bd8a41d948943451
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
