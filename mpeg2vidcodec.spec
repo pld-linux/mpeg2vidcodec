@@ -2,7 +2,7 @@ Summary:	MPEG-2 Encoder / Decoder
 Summary(pl):	Koder i dekoder plików MPEG-2
 Name:		mpeg2vidcodec
 Version:	1.2
-Release:	3
+Release:	4
 License:	Freeware
 Group:		X11/Applications/Graphics
 URL:		http://www.mpeg.org/MSSG/
@@ -37,6 +37,7 @@ i odwrotnie.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install src/mpeg2dec/mpeg2decode $RPM_BUILD_ROOT%{_bindir}
 install src/mpeg2enc/mpeg2encode $RPM_BUILD_ROOT%{_bindir}
 
@@ -46,13 +47,12 @@ for f in CHANGES TODO ; do
 done
 mv -f src/mpeg2dec/README{,.mpeg2dec}
 
-gzip -9nf README doc/* src/*/CHANGES* src/*/TODO* \
-	src/mpeg2dec/{EXAMPLES,IEEE1180,README*,SPATIAL.DOC}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz doc/*.gz src/*/*.gz
+%doc README doc/* src/*/CHANGES* src/*/TODO* \
+%doc src/mpeg2dec/{EXAMPLES,IEEE1180,README*,SPATIAL.DOC}
 %attr(755,root,root) %{_bindir}/*
