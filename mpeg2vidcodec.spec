@@ -10,7 +10,6 @@ Source0:	ftp://ftp.mpeg.org/pub/mpeg/mssg/%{name}_v12.tar.gz
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 This package contains an implementation of an ISO/IEC DIS 13818-2
