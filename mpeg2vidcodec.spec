@@ -2,13 +2,13 @@ Summary:	MPEG-2 Encoder / Decoder
 Summary(pl):	Koder i dekoder plików MPEG-2
 Name:		mpeg2vidcodec
 Version:	1.2
-Release:	6
+Release:	7
 License:	Freeware
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.mpeg.org/pub/mpeg/mssg/%{name}_v12.tar.gz
 # Source0-md5:	4a66565979be0818bd8a41d948943451
 URL:		http://www.mpeg.org/MPEG/MSSG/
-BuildRequires:	XFree86-devel
+BuildRequires:	xorg-lib-libXext-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,12 +26,13 @@ MPEG-2 i odwrotnie.
 
 %build
 %{__make} \
+	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags}" \
 	USE_DISP=-DDISPLAY \
 	LIBS="-lXext -lX11" \
 	USE_SHMEM=-DSH_MEM \
-	INCLUDEDIR=-I/usr/X11R6/include \
-	LIBRARYDIR=-L/usr/X11R6/%{_lib}
+	INCLUDEDIR= \
+	LIBRARYDIR=
 
 %install
 rm -rf $RPM_BUILD_ROOT
