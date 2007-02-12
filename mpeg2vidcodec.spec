@@ -1,5 +1,5 @@
 Summary:	MPEG-2 Encoder / Decoder
-Summary(pl):	Koder i dekoder plików MPEG-2
+Summary(pl.UTF-8):   Koder i dekoder plikÃ³w MPEG-2
 Name:		mpeg2vidcodec
 Version:	1.2
 Release:	7
@@ -16,9 +16,9 @@ This package contains an implementation of an ISO/IEC DIS 13818-2
 codec. It converts uncompressed video frames into MPEG-1 and MPEG-2
 video coded bitstream sequences, and vice versa.
 
-%description -l pl
-Ten pakiet zawiera implementacjê kodowania ISO/IEC DIS 13818-2.
-Konwertuje nieskompresowane klatki obrazu na strumieñ MPEG-1 lub
+%description -l pl.UTF-8
+Ten pakiet zawiera implementacjÄ™ kodowania ISO/IEC DIS 13818-2.
+Konwertuje nieskompresowane klatki obrazu na strumieÅ„ MPEG-1 lub
 MPEG-2 i odwrotnie.
 
 %prep
