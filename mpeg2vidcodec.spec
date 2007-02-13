@@ -1,5 +1,5 @@
 Summary:	MPEG-2 Encoder / Decoder
-Summary(pl.UTF-8):   Koder i dekoder plików MPEG-2
+Summary(pl.UTF-8):	Koder i dekoder plików MPEG-2
 Name:		mpeg2vidcodec
 Version:	1.2
 Release:	7
